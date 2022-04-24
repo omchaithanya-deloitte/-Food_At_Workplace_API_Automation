@@ -1,0 +1,49 @@
+Request method:	POST
+Request URI:	https://food-at-work-backend-urtjok3rza-wl.a.run.app/createUser
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "leila@gmail.com",
+    "password": "Leila45",
+    "isAdmin": false,
+    "admin": false
+}
+HTTP/1.1 200 OK
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+set-cookie: JSESSIONID=389E90A5338BCF38F4E4859BF2231B40; Path=/; HttpOnly
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-type: application/json
+Transfer-Encoding: chunked
+Date: Sun, 24 Apr 2022 08:40:02 GMT
+Server: Google Frontend
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{
+    "data": {
+        "headers": {
+            
+        },
+        "body": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsZWlsYUBnbWFpbC5jb20iLCJBZG1pbiI6ZmFsc2UsImV4cCI6MTY1MDgwMDQwMiwiaWF0IjoxNjUwNzg5NjAyfQ.GIXMkHrC7c3J0ThNayv544a4iZE6WGZLwlDxCmfG1BA"
+        },
+        "statusCode": "OK",
+        "statusCodeValue": 200
+    },
+    "message": "User Authorized",
+    "status": 200
+}
