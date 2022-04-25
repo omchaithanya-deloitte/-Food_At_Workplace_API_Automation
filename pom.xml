@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>RestAssuredFramework_POC</artifactId>
+    <artifactId>Food_At_Workplace_API_Automation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -190,7 +190,7 @@
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
-            <version>3.1.5</version>
+            <version>5.0.9</version>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
@@ -203,17 +203,6 @@
             <artifactId>rest-assured</artifactId>
             <version>5.0.0</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>5.0.8</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.relevantcodes</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>2.40.2</version>
         </dependency>
 
         <dependency>

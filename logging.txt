@@ -11,8 +11,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "finn@gmail.com",
-    "password": "Finn942",
+    "email": "nelle@gmail.com",
+    "password": "Nelle361",
     "isAdmin": false,
     "admin": false
 }
@@ -20,7 +20,7 @@ HTTP/1.1 200 OK
 vary: Origin
 vary: Access-Control-Request-Method
 vary: Access-Control-Request-Headers
-set-cookie: JSESSIONID=0E38CDA9D5972B15F140674320788D82; Path=/; HttpOnly
+set-cookie: JSESSIONID=A00AFDCF423ADCF6B0AC07E039467D96; Path=/; HttpOnly
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate
@@ -29,7 +29,7 @@ expires: 0
 x-frame-options: DENY
 content-type: application/json
 Transfer-Encoding: chunked
-Date: Sun, 24 Apr 2022 17:03:47 GMT
+Date: Mon, 25 Apr 2022 04:05:13 GMT
 Server: Google Frontend
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
@@ -39,7 +39,7 @@ Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=25920
             
         },
         "body": {
-            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmaW5uQGdtYWlsLmNvbSIsIkFkbWluIjpmYWxzZSwiZXhwIjoxNjUwODMwNjI3LCJpYXQiOjE2NTA4MTk4Mjd9.XK4T6Z_38CLcBchQRfqxZFE7u0Yhxf3cZAxlv7qrQFE"
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZWxsZUBnbWFpbC5jb20iLCJBZG1pbiI6ZmFsc2UsImV4cCI6MTY1MDg3MDMxMywiaWF0IjoxNjUwODU5NTEzfQ.jzFbyt-smIS61eSI9wXmKQS-1x5Y_zVb0ErJx2CKEMg"
         },
         "statusCode": "OK",
         "statusCodeValue": 200

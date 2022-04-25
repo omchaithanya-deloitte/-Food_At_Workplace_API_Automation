@@ -5,6 +5,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Properties;
+
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
@@ -14,8 +17,10 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.JSONObject;
 import org.testng.Assert;
+import testAutomationListner.ExtentReportListener;
+import testAutomationListner.Log;
 
-public class Utils {
+public class Utils extends ExtentReportListener {
 
 	private static FileInputStream fileInputStream;
 	private static Properties properties;
@@ -62,8 +67,18 @@ public class Utils {
 		else throw new RuntimeException("Report Config Path not specified in the Configuration.properties file for the Key:reportConfigPath");
 	}
 
-	public void validateResponse(String actual, String key, JSONObject obj){
-		Assert.assertEquals(actual, String.valueOf(obj.get(key)));
+	public void validateResponse(String actual, String key, JSONObject obj, ExtentTest extentTest){
+
+		try{
+			Assert.assertEquals(actual, String.valueOf(obj.get(key)));
+			extentTest.log(Status.PASS,"Assertion validated.");
+			Log.info("Assertion validated.");
+		}catch (AssertionError assertionError){
+			extentTest.log(Status.FAIL,assertionError.getMessage());
+			Log.error(assertionError.getMessage());
+			Assert.assertEquals(actual, String.valueOf(obj.get(key)));
+
+		}
 	}
 
 

@@ -1,7 +1,6 @@
 package testAPI;
 
-import TestAPIListener.ExtentReport;
-import org.testng.annotations.Listeners;
+import com.aventstack.extentreports.ExtentTest;
 import resources.getfakedetails.faker;
 import resources.helperclasses.Utils;
 import foodAtWorkspaceAPI.CreateUser;
@@ -11,14 +10,13 @@ import io.restassured.specification.ResponseSpecification;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 import resources.helperclasses.handlecsv;
+import resources.baseClass.BaseClass;
 
 import java.io.IOException;
-import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
-@Listeners(ExtentReport.class)
-public class testCreateUserAPI extends Utils {
+public class TestCreateUserAPI extends BaseClass {
     RequestSpecification res;
     ResponseSpecification resspec;
     Response response;
@@ -38,7 +36,10 @@ public class testCreateUserAPI extends Utils {
 
         JSONObject obj = new JSONObject(response.asString());
         System.out.println(response.asString());
-        validateResponse(Utils.getProperties("user_authorize"),Utils.getProperties("message"), obj);
-        validateResponse(Utils.getProperties("code_200"),Utils.getProperties("status"), obj);
+
+        ExtentTest userLogInTest = extent.createTest("User Login Test");
+
+        validateResponse(Utils.getProperties("user_authorize"),Utils.getProperties("message"), obj,userLogInTest);
+        validateResponse(Utils.getProperties("code_200"),Utils.getProperties("status"), obj,userLogInTest);
     }
 }
