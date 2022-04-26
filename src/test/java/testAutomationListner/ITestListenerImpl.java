@@ -1,16 +1,8 @@
 package testAutomationListner;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import resources.baseClass.BaseClass;
-import resources.helperclasses.Utils;
-import testAPI.TestCreateUserAPI;
-
-import java.io.IOException;
 
 
 public class ITestListenerImpl implements ITestListener

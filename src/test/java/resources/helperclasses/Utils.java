@@ -14,6 +14,7 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
 import org.json.JSONObject;
 import org.testng.Assert;
@@ -26,7 +27,7 @@ public class Utils extends ExtentReportListener {
 	private static Properties properties;
 
 	public static RequestSpecification req;
-	public RequestSpecification requestSpecification() throws IOException
+	public static RequestSpecification requestSpecification() throws IOException
 	{
 		
 		if(req==null)
@@ -41,6 +42,13 @@ public class Utils extends ExtentReportListener {
 		return req;
 		
 		
+	}
+
+	public static String getToken(ResponseBody body){
+
+		String[] sub_list1 = body.asString().split("},");
+		String sub_list2 = sub_list1[1];
+		return sub_list2.substring(17,sub_list2.length()-1);
 	}
 	
 	
@@ -67,8 +75,7 @@ public class Utils extends ExtentReportListener {
 		else throw new RuntimeException("Report Config Path not specified in the Configuration.properties file for the Key:reportConfigPath");
 	}
 
-	public void validateResponse(String actual, String key, JSONObject obj, ExtentTest extentTest){
-
+	public static void validateResponse(String actual, String key, JSONObject obj, ExtentTest extentTest){
 		try{
 			Assert.assertEquals(actual, String.valueOf(obj.get(key)));
 			extentTest.log(Status.PASS,"Assertion validated.");
@@ -77,7 +84,6 @@ public class Utils extends ExtentReportListener {
 			extentTest.log(Status.FAIL,assertionError.getMessage());
 			Log.error(assertionError.getMessage());
 			Assert.assertEquals(actual, String.valueOf(obj.get(key)));
-
 		}
 	}
 

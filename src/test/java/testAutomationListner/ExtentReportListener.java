@@ -35,8 +35,8 @@ public class ExtentReportListener extends ITestListenerImpl{
 		extent.setSystemInfo("Created by ", "Om Chaithanya , Manideep, Navneet, Nara Tharun kumar, Neeraj ");
 		extent.attachReporter(extentSparkReporter);
 
-		ExtentTest extentTest = extent.createTest("Base Test");
-		extentTest.log(Status.PASS,"Test setup");
+//		ExtentTest extentTest = extent.createTest("Base Test");
+//		extentTest.log(Status.PASS,"Test setup");
 
 	}
 
