@@ -1,0 +1,53 @@
+[INFO ] 2022-04-26 11:22:20.637 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:20.648 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:21.272 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:21.274 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:22.144 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:22.146 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:23.025 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:23.027 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:23.788 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:23.790 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:23.803 [main] Log - getting order data by order status
+[INFO ] 2022-04-26 11:22:24.500 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:22:24.502 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:34.061 [main] Log - Reading csv file to get token value
+[INFO ] 2022-04-26 11:32:34.072 [main] Log - Getting all order details
+[INFO ] 2022-04-26 11:32:40.814 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:40.816 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:40.851 [main] Log - Getting order details using orderid
+[INFO ] 2022-04-26 11:32:41.587 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:41.589 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:41.607 [main] Log - Update the order status using order id
+[INFO ] 2022-04-26 11:32:44.861 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:44.862 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:44.877 [main] Log - Get order status using order id
+[INFO ] 2022-04-26 11:32:45.495 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:45.497 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:45.550 [main] Log - Delete the order after updating the order status
+[INFO ] 2022-04-26 11:32:46.150 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:46.152 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:46.153 [main] Log - Cannot delete the order since order status is updated
+[INFO ] 2022-04-26 11:32:46.169 [main] Log - getting order data by order status
+[INFO ] 2022-04-26 11:32:46.801 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:32:46.804 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:14.241 [main] Log - Reading csv file to get token value
+[INFO ] 2022-04-26 11:50:14.253 [main] Log - Getting all order details
+[INFO ] 2022-04-26 11:50:21.912 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:21.915 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:21.947 [main] Log - Getting order details using orderid
+[INFO ] 2022-04-26 11:50:22.706 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:22.708 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:22.764 [main] Log - Update the order status using order id
+[INFO ] 2022-04-26 11:50:23.555 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:23.558 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:23.573 [main] Log - Get order status using order id
+[INFO ] 2022-04-26 11:50:24.296 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:24.298 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:24.342 [main] Log - Delete the order after updating the order status
+[INFO ] 2022-04-26 11:50:24.989 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:24.991 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:24.991 [main] Log - Cannot delete the order since order status is updated
+[INFO ] 2022-04-26 11:50:25.026 [main] Log - getting order data by order status
+[INFO ] 2022-04-26 11:50:26.021 [main] Log - Assertion validated.
+[INFO ] 2022-04-26 11:50:26.023 [main] Log - Assertion validated.

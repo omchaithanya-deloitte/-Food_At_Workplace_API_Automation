@@ -50,4 +50,24 @@ public class handlecsv {
         return null;
 
     }
+
+    public static void writeToken(String file_path,String token)
+    {
+        // first create file object for file placed at location
+        // specified by filepath
+        File file = new File(file_path);
+        try {
+            // create FileWriter object with file as parameter
+            FileWriter outputfile = new FileWriter(file,true);
+            StringBuilder sb = new StringBuilder();
+            sb.append(token);
+            sb.append('\n');
+            outputfile.write(sb.toString());
+            // closing writer connection
+            outputfile.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
