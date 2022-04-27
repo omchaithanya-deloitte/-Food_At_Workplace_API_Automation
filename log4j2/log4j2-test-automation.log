@@ -1,581 +1,181 @@
-[INFO ] 2022-04-26 11:22:20.637 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:20.648 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:21.272 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:21.274 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:22.144 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:22.146 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:23.025 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:23.027 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:23.788 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:23.790 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:23.803 [main] Log - getting order data by order status
-[INFO ] 2022-04-26 11:22:24.500 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:22:24.502 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:34.061 [main] Log - Reading csv file to get token value
-[INFO ] 2022-04-26 11:32:34.072 [main] Log - Getting all order details
-[INFO ] 2022-04-26 11:32:40.814 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:40.816 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:40.851 [main] Log - Getting order details using orderid
-[INFO ] 2022-04-26 11:32:41.587 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:41.589 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:41.607 [main] Log - Update the order status using order id
-[INFO ] 2022-04-26 11:32:44.861 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:44.862 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:44.877 [main] Log - Get order status using order id
-[INFO ] 2022-04-26 11:32:45.495 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:45.497 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:45.550 [main] Log - Delete the order after updating the order status
-[INFO ] 2022-04-26 11:32:46.150 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:46.152 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:46.153 [main] Log - Cannot delete the order since order status is updated
-[INFO ] 2022-04-26 11:32:46.169 [main] Log - getting order data by order status
-[INFO ] 2022-04-26 11:32:46.801 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:32:46.804 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:14.241 [main] Log - Reading csv file to get token value
-[INFO ] 2022-04-26 11:50:14.253 [main] Log - Getting all order details
-[INFO ] 2022-04-26 11:50:21.912 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:21.915 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:21.947 [main] Log - Getting order details using orderid
-[INFO ] 2022-04-26 11:50:22.706 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:22.708 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:22.764 [main] Log - Update the order status using order id
-[INFO ] 2022-04-26 11:50:23.555 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:23.558 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:23.573 [main] Log - Get order status using order id
-[INFO ] 2022-04-26 11:50:24.296 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:24.298 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:24.342 [main] Log - Delete the order after updating the order status
-[INFO ] 2022-04-26 11:50:24.989 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:24.991 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:24.991 [main] Log - Cannot delete the order since order status is updated
-[INFO ] 2022-04-26 11:50:25.026 [main] Log - getting order data by order status
-[INFO ] 2022-04-26 11:50:26.021 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:50:26.023 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:54:25.747 [main] Log - Reading csv file to get token value
-[INFO ] 2022-04-26 11:54:25.757 [main] Log - Getting all order details
-[INFO ] 2022-04-26 11:54:32.312 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:54:32.314 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:55:10.635 [main] Log - Reading csv file to get token value
-[INFO ] 2022-04-26 11:55:10.643 [main] Log - Getting all order details
-[INFO ] 2022-04-26 11:55:17.541 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:55:17.543 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:56:45.590 [main] Log - Reading csv file to get token value
-[INFO ] 2022-04-26 11:56:45.599 [main] Log - Getting all order details
-[INFO ] 2022-04-26 11:56:51.593 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 11:56:51.595 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:07:37.828 [main] Log - Reading csv file to get token value
-[INFO ] 2022-04-26 12:07:37.837 [main] Log - Getting all order details
-[INFO ] 2022-04-26 12:07:43.204 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:07:43.206 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:27.775 [main] Log - Get all the items
-[INFO ] 2022-04-26 12:27:29.320 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:27:29.326 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:29.327 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:29.353 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 12:27:29.783 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:27:29.784 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:29.786 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:29.803 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 12:27:30.251 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:27:30.252 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:30.253 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:30.274 [main] Log - Posting an item
-[INFO ] 2022-04-26 12:27:30.275 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 12:27:30.967 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:27:30.968 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:30.970 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:30.986 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 12:27:30.986 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 12:27:31.562 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:27:31.563 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:31.565 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:31.593 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 12:27:31.594 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 12:27:32.037 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:27:32.038 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:27:32.040 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:28:20.245 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 12:28:20.249 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 12:28:23.160 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:28:23.170 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:28:23.171 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:49:18.378 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 12:49:18.382 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 12:49:21.862 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:49:21.871 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:49:21.872 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:49:53.223 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 12:49:53.227 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 12:49:57.450 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:49:57.470 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:49:57.473 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:23.330 [main] Log - Get all the items
-[INFO ] 2022-04-26 12:50:25.123 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:50:25.129 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:25.130 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:25.153 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 12:50:25.535 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:50:25.535 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:25.536 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:25.544 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 12:50:25.904 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:50:25.906 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:25.908 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:25.923 [main] Log - Posting an item
-[INFO ] 2022-04-26 12:50:25.924 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 12:50:26.713 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:50:26.714 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:26.716 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:26.738 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 12:50:26.739 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 12:50:27.157 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:50:27.158 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:27.159 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:27.174 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 12:50:27.174 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 12:50:27.636 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:50:27.637 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:50:27.639 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:51:24.982 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 12:51:24.986 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 12:51:29.133 [main] Log - verifying response using message
-[INFO ] 2022-04-26 12:51:29.144 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 12:51:29.146 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:00.321 [main] Log - Get all the items
-[INFO ] 2022-04-26 13:01:02.090 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:01:02.101 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:02.102 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:02.130 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 13:01:02.685 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:01:02.686 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:02.687 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:02.699 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 13:01:03.271 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:01:03.272 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:03.274 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:03.288 [main] Log - Posting an item
-[INFO ] 2022-04-26 13:01:03.288 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 13:01:04.194 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:01:04.196 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:04.197 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:04.233 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 13:01:04.234 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 13:01:04.634 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:01:04.636 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:04.638 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:04.657 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 13:01:04.658 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 13:01:05.025 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:01:05.026 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:05.027 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:50.664 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 13:01:50.673 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 13:01:52.416 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:01:52.422 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:01:52.423 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:48.425 [main] Log - Reading csv file to get token value
-[INFO ] 2022-04-26 13:07:48.431 [main] Log - Getting all order details
-[INFO ] 2022-04-26 13:07:51.058 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:51.059 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:51.422 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 13:07:51.422 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 13:07:52.017 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:07:52.018 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:52.019 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:52.187 [main] Log - Get all the items
-[INFO ] 2022-04-26 13:07:52.774 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:07:52.776 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:52.777 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:52.791 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 13:07:53.241 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:07:53.243 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:53.244 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:53.257 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 13:07:53.601 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:07:53.602 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:53.603 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:53.615 [main] Log - Posting an item
-[INFO ] 2022-04-26 13:07:53.615 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 13:07:54.374 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:07:54.376 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:54.377 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:54.402 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 13:07:54.403 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 13:07:54.859 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:07:54.861 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:54.863 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:54.878 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 13:07:54.878 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 13:07:55.239 [main] Log - verifying response using message
-[INFO ] 2022-04-26 13:07:55.240 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 13:07:55.240 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:11.769 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 14:17:11.769 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 14:17:13.551 [main] Log - verifying response using message
-[INFO ] 2022-04-26 14:17:13.551 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:13.551 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:26.624 [main] Log - Get all the items
-[INFO ] 2022-04-26 14:17:28.252 [main] Log - verifying response using message
-[INFO ] 2022-04-26 14:17:28.252 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:28.252 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:28.267 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 14:17:28.816 [main] Log - verifying response using message
-[INFO ] 2022-04-26 14:17:28.832 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:28.832 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:28.848 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 14:17:29.240 [main] Log - verifying response using message
-[INFO ] 2022-04-26 14:17:29.240 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:29.240 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:29.255 [main] Log - Posting an item
-[INFO ] 2022-04-26 14:17:29.255 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 14:17:30.257 [main] Log - verifying response using message
-[INFO ] 2022-04-26 14:17:30.257 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:30.257 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:30.275 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 14:17:30.275 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 14:17:30.888 [main] Log - verifying response using message
-[INFO ] 2022-04-26 14:17:30.888 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:30.888 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:30.901 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 14:17:30.901 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 14:17:31.304 [main] Log - verifying response using message
-[INFO ] 2022-04-26 14:17:31.304 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 14:17:31.304 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:39.262 [main] Log - Get all the items
-[INFO ] 2022-04-26 15:40:41.504 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:40:41.513 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:41.514 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:41.551 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 15:40:41.948 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:40:41.948 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:41.949 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:41.960 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 15:40:42.590 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:40:42.592 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:42.594 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:42.643 [main] Log - Posting an item
-[INFO ] 2022-04-26 15:40:42.645 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 15:40:43.541 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:40:43.543 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:43.544 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:43.565 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 15:40:43.565 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 15:40:44.063 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 15:40:44.063 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 15:40:44.647 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:40:44.649 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:40:44.649 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:50.990 [main] Log - Get all the items
-[INFO ] 2022-04-26 15:43:52.837 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:43:52.845 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:52.846 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:52.873 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 15:43:53.452 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:43:53.453 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:53.455 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:53.472 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 15:43:53.918 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:43:53.919 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:53.921 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:53.939 [main] Log - Posting an item
-[INFO ] 2022-04-26 15:43:53.939 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 15:43:54.799 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:43:54.800 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:54.801 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:54.818 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 15:43:54.819 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 15:43:55.163 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:43:55.164 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:55.165 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:55.183 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 15:43:55.183 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 15:43:55.605 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:43:55.607 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:43:55.608 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:45:58.511 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 15:45:58.516 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 15:46:00.209 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:46:00.216 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:46:00.217 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:48:17.728 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 15:48:17.736 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 15:48:19.621 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:48:19.627 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:48:19.630 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:20.557 [main] Log - Get all the items
-[INFO ] 2022-04-26 15:49:24.597 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:49:24.613 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:24.616 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:24.683 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 15:49:25.370 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:49:25.372 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:25.374 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:25.407 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 15:49:25.882 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:49:25.883 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:25.885 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:25.913 [main] Log - Posting an item
-[INFO ] 2022-04-26 15:49:25.914 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 15:49:27.413 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:49:27.415 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:27.417 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:27.442 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 15:49:27.442 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 15:49:27.931 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:49:27.933 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:27.947 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:27.974 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 15:49:27.975 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 15:49:28.567 [main] Log - verifying response using message
-[INFO ] 2022-04-26 15:49:28.569 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 15:49:28.571 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:04.630 [main] Log - Get all the items
-[INFO ] 2022-04-26 16:10:06.539 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:10:06.545 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:06.546 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:06.574 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 16:10:07.128 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:10:07.129 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:07.130 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:07.148 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 16:10:07.546 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:10:07.548 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:07.549 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:07.569 [main] Log - Posting an item
-[INFO ] 2022-04-26 16:10:07.570 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 16:10:08.311 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:10:08.312 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:08.313 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:08.326 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 16:10:08.327 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 16:10:08.679 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:10:08.680 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:08.681 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:08.697 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 16:10:08.697 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 16:10:09.327 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:10:09.329 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:10:09.331 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:50.670 [main] Log - Get all the items
-[INFO ] 2022-04-26 16:13:52.791 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:13:52.801 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:52.801 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:52.826 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 16:13:53.198 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:13:53.199 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:53.200 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:53.219 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 16:13:53.812 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:13:53.813 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:53.815 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:53.828 [main] Log - Posting an item
-[INFO ] 2022-04-26 16:13:53.829 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 16:13:54.700 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:13:54.701 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:54.703 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:54.733 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 16:13:54.733 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 16:13:55.228 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:13:55.231 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:55.233 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:55.260 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 16:13:55.260 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 16:13:55.688 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:13:55.689 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:13:55.692 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:46.000 [main] Log - Get all the items
-[INFO ] 2022-04-26 16:17:47.873 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:17:47.893 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:47.896 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:47.954 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 16:17:48.520 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:17:48.522 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:48.524 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:48.553 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 16:17:49.155 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:17:49.157 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:49.159 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:49.187 [main] Log - Posting an item
-[INFO ] 2022-04-26 16:17:49.188 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 16:17:50.755 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:17:50.757 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:50.760 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:50.788 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 16:17:50.788 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 16:17:52.333 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:17:52.335 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:52.339 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:52.361 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 16:17:52.362 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 16:17:52.901 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:17:52.902 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:17:52.904 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:45.419 [main] Log - Get all the items
-[INFO ] 2022-04-26 16:37:46.695 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:37:46.699 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:46.699 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:46.713 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 16:37:47.211 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:37:47.212 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:47.213 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:47.220 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 16:37:47.679 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:37:47.680 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:47.680 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:47.686 [main] Log - Posting an item
-[INFO ] 2022-04-26 16:37:47.686 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 16:37:48.376 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:37:48.377 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:48.378 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:48.392 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 16:37:48.393 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 16:37:48.955 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:37:48.955 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:48.956 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:48.964 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 16:37:48.964 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 16:37:49.409 [main] Log - verifying response using message
-[INFO ] 2022-04-26 16:37:49.411 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 16:37:49.412 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:54.241 [main] Log - Get all the items
-[INFO ] 2022-04-26 21:21:55.964 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:21:55.970 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:55.970 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:55.984 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 21:21:56.508 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:21:56.508 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:56.509 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:56.516 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 21:21:57.068 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:21:57.069 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:57.070 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:57.080 [main] Log - Posting an item
-[INFO ] 2022-04-26 21:21:57.080 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 21:21:57.804 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:21:57.805 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:57.806 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:57.814 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 21:21:57.814 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 21:21:58.226 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 21:21:58.226 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 21:21:58.565 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:21:58.566 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:21:58.566 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:42.176 [main] Log - Get all the items
-[INFO ] 2022-04-26 21:24:43.577 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:24:43.582 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:43.583 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:43.611 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 21:24:43.956 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:24:43.957 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:43.958 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:43.967 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 21:24:44.313 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:24:44.314 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:44.315 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:44.331 [main] Log - Posting an item
-[INFO ] 2022-04-26 21:24:44.332 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 21:24:44.936 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:24:44.937 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:44.938 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:44.948 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 21:24:44.948 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 21:24:45.326 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:24:45.327 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:45.329 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:45.342 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 21:24:45.342 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 21:24:45.793 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:24:45.794 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:45.795 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:54.805 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 21:24:54.808 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 21:24:56.079 [main] Log - verifying response using message
-[INFO ] 2022-04-26 21:24:56.085 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 21:24:56.086 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:30.579 [main] Log - Get all the orders of an employee
-[INFO ] 2022-04-26 22:37:30.583 [main] Log - Reading user details and token from csv files
-[INFO ] 2022-04-26 22:37:33.120 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:37:33.124 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:33.124 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:42.143 [main] Log - Get all the items
-[INFO ] 2022-04-26 22:37:44.015 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:37:44.022 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:44.023 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:44.041 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 22:37:44.530 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:37:44.531 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:44.531 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:44.539 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 22:37:44.922 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:37:44.927 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:44.929 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:44.939 [main] Log - Posting an item
-[INFO ] 2022-04-26 22:37:44.939 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 22:37:45.778 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:37:45.779 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:45.780 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:45.797 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 22:37:45.797 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 22:37:46.198 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:37:46.198 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:46.199 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:46.206 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 22:37:46.206 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 22:37:46.701 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:37:46.702 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:37:46.703 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:09.639 [main] Log - Get all the items
-[INFO ] 2022-04-26 22:43:10.852 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:43:10.857 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:10.857 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:10.873 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 22:43:11.404 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:43:11.405 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:11.406 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:11.413 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 22:43:11.817 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:43:11.818 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:11.818 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:11.827 [main] Log - Posting an item
-[INFO ] 2022-04-26 22:43:11.827 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 22:43:13.435 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:43:13.436 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:13.436 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:13.443 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 22:43:13.443 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 22:43:13.938 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:43:13.939 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:13.939 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:13.947 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 22:43:13.948 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 22:43:15.268 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:43:15.269 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:43:15.270 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:44:59.236 [main] Log - Get all the items
-[INFO ] 2022-04-26 22:45:00.467 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:45:00.472 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:00.472 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:00.496 [main] Log - Get all the Free Items
-[INFO ] 2022-04-26 22:45:00.998 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:45:00.999 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:01.000 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:01.007 [main] Log - Get all the paid items
-[INFO ] 2022-04-26 22:45:01.468 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:45:01.469 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:01.470 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:01.477 [main] Log - Posting an item
-[INFO ] 2022-04-26 22:45:01.477 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 22:45:02.080 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:45:02.082 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:02.082 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:02.087 [main] Log - Updating availability status of an item
-[INFO ] 2022-04-26 22:45:02.087 [main] Log - Reading token from csv file
-[INFO ] 2022-04-26 22:45:02.514 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:45:02.514 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:02.515 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:02.526 [main] Log - Updating the details of an item
-[INFO ] 2022-04-26 22:45:02.527 [main] Log - Reading item details from csv file
-[INFO ] 2022-04-26 22:45:03.924 [main] Log - verifying response using message
-[INFO ] 2022-04-26 22:45:03.925 [main] Log - Assertion validated.
-[INFO ] 2022-04-26 22:45:03.926 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:25.109 [main] Log - Get all the items
+[INFO ] 2022-04-27 10:42:29.629 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:42:29.649 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:29.653 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:31.883 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:42:31.946 [main] Log - Get all the Free Items
+[INFO ] 2022-04-27 10:42:32.568 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:42:32.570 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:32.583 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:32.652 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:42:32.680 [main] Log - Get all the paid items
+[INFO ] 2022-04-27 10:42:33.480 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:42:33.482 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:33.485 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:33.486 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:42:33.519 [main] Log - Posting an item
+[INFO ] 2022-04-27 10:42:33.519 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 10:42:35.628 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:42:35.630 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:35.631 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:35.645 [main] Log - Successfully posted an item
+[INFO ] 2022-04-27 10:42:35.671 [main] Log - Updating availability status of an item
+[INFO ] 2022-04-27 10:42:35.672 [main] Log - Reading token from csv file
+[INFO ] 2022-04-27 10:42:36.488 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:42:36.489 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:36.491 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:36.491 [main] Log - Successfully updated availability of an item
+[INFO ] 2022-04-27 10:42:36.525 [main] Log - Updating the details of an item
+[INFO ] 2022-04-27 10:42:36.526 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 10:42:37.343 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:42:37.345 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:37.346 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:42:37.363 [main] Log - Successfully updated the details of an item
+[INFO ] 2022-04-27 10:44:03.142 [main] Log - Get all the items
+[INFO ] 2022-04-27 10:44:07.287 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:44:07.308 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:07.312 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:09.504 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:44:09.505 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:44:09.562 [main] Log - Get all the Free Items
+[INFO ] 2022-04-27 10:44:10.177 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:44:10.179 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:10.180 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:10.257 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:44:10.258 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:44:10.285 [main] Log - Get all the paid items
+[INFO ] 2022-04-27 10:44:10.915 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:44:10.917 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:10.919 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:10.919 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:44:10.943 [main] Log - Posting an item
+[INFO ] 2022-04-27 10:44:10.944 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 10:44:12.280 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:44:12.282 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:12.284 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:12.299 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:44:12.300 [main] Log - Successfully posted an item
+[INFO ] 2022-04-27 10:44:12.336 [main] Log - Updating availability status of an item
+[INFO ] 2022-04-27 10:44:12.337 [main] Log - Reading token from csv file
+[INFO ] 2022-04-27 10:44:13.068 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:44:13.070 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:13.073 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:13.073 [main] Log - Successfully updated availability of an item
+[INFO ] 2022-04-27 10:44:13.099 [main] Log - Updating the details of an item
+[INFO ] 2022-04-27 10:44:13.100 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 10:44:13.685 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:44:13.687 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:13.689 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:44:13.705 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:44:13.705 [main] Log - Successfully updated the details of an item
+[INFO ] 2022-04-27 10:50:32.702 [main] Log - Get all the items
+[INFO ] 2022-04-27 10:50:37.220 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:50:37.228 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:37.230 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:39.330 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:50:39.330 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:50:39.382 [main] Log - Get all the Free Items
+[INFO ] 2022-04-27 10:50:39.960 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:50:39.962 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:39.966 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:40.048 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:50:40.049 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:50:40.080 [main] Log - Get all the paid items
+[INFO ] 2022-04-27 10:50:40.659 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:50:40.661 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:40.663 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:40.663 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:50:40.689 [main] Log - Posting an item
+[INFO ] 2022-04-27 10:50:40.689 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 10:50:41.660 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:50:41.663 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:41.665 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:41.681 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:50:41.682 [main] Log - Successfully posted an item
+[INFO ] 2022-04-27 10:50:41.709 [main] Log - Updating availability status of an item
+[INFO ] 2022-04-27 10:50:41.709 [main] Log - Reading token from csv file
+[INFO ] 2022-04-27 10:50:42.353 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:50:42.355 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:42.357 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:42.357 [main] Log - Successfully updated availability of an item
+[INFO ] 2022-04-27 10:50:42.380 [main] Log - Updating the details of an item
+[INFO ] 2022-04-27 10:50:42.380 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 10:50:43.177 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:50:43.179 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:43.181 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:50:43.203 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:50:43.203 [main] Log - Successfully updated the details of an item
+[INFO ] 2022-04-27 10:51:49.538 [main] Log - Get all the items
+[INFO ] 2022-04-27 10:51:52.096 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:51:52.103 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:52.105 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:52.914 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:51:52.914 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:51:52.937 [main] Log - Get all the Free Items
+[INFO ] 2022-04-27 10:51:53.726 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:51:53.728 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:53.729 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:53.802 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:51:53.803 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:51:53.821 [main] Log - Get all the paid items
+[INFO ] 2022-04-27 10:51:54.379 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:51:54.380 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:54.381 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:54.381 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 10:51:54.398 [main] Log - Posting an item
+[INFO ] 2022-04-27 10:51:54.398 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 10:51:55.405 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:51:55.406 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:55.407 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:55.416 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:51:55.416 [main] Log - Successfully posted an item
+[INFO ] 2022-04-27 10:51:55.435 [main] Log - Updating availability status of an item
+[INFO ] 2022-04-27 10:51:55.435 [main] Log - Reading token from csv file
+[INFO ] 2022-04-27 10:51:56.043 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:51:56.044 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:56.045 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:56.046 [main] Log - Successfully updated availability of an item
+[INFO ] 2022-04-27 10:51:56.060 [main] Log - Updating the details of an item
+[INFO ] 2022-04-27 10:51:56.061 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 10:51:56.831 [main] Log - verifying response using message
+[INFO ] 2022-04-27 10:51:56.833 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:56.835 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 10:51:56.849 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 10:51:56.849 [main] Log - Successfully updated the details of an item
+[INFO ] 2022-04-27 11:03:15.404 [main] Log - Get all the items
+[INFO ] 2022-04-27 11:03:18.575 [main] Log - verifying response using message
+[INFO ] 2022-04-27 11:03:18.584 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:18.585 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:19.805 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 11:03:19.805 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 11:03:19.825 [main] Log - Get all the Free Items
+[INFO ] 2022-04-27 11:03:20.393 [main] Log - verifying response using message
+[INFO ] 2022-04-27 11:03:20.394 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:20.395 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:20.443 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 11:03:20.444 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 11:03:20.463 [main] Log - Get all the paid items
+[INFO ] 2022-04-27 11:03:21.047 [main] Log - verifying response using message
+[INFO ] 2022-04-27 11:03:21.048 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:21.049 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:21.049 [main] Log - Successfully validated the response using message
+[INFO ] 2022-04-27 11:03:21.066 [main] Log - Posting an item
+[INFO ] 2022-04-27 11:03:21.067 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 11:03:21.733 [main] Log - verifying response using message
+[INFO ] 2022-04-27 11:03:21.734 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:21.735 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:21.744 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 11:03:21.744 [main] Log - Successfully posted an item
+[INFO ] 2022-04-27 11:03:21.762 [main] Log - Updating availability status of an item
+[INFO ] 2022-04-27 11:03:21.762 [main] Log - Reading token from csv file
+[INFO ] 2022-04-27 11:03:22.535 [main] Log - verifying response using message
+[INFO ] 2022-04-27 11:03:22.536 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:22.537 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:22.538 [main] Log - Successfully updated availability of an item
+[INFO ] 2022-04-27 11:03:22.552 [main] Log - Updating the details of an item
+[INFO ] 2022-04-27 11:03:22.553 [main] Log - Reading item details from csv file
+[INFO ] 2022-04-27 11:03:23.456 [main] Log - verifying response using message
+[INFO ] 2022-04-27 11:03:23.458 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:23.459 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 11:03:23.469 [main] Log - Json Schema Validated
+[INFO ] 2022-04-27 11:03:23.469 [main] Log - Successfully updated the details of an item

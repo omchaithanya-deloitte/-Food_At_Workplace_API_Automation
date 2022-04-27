@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "itemsId": {
+          "type": "integer"
+        },
+        "category": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "details": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "price": {
+          "type": "integer"
+        },
+        "veg": {
+          "type": "boolean"
+        },
+        "available": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "itemsId",
+        "category",
+        "image",
+        "name",
+        "details",
+        "duration",
+        "price",
+        "veg",
+        "available"
+      ]
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "data",
+    "message",
+    "status"
+  ]
+}
+

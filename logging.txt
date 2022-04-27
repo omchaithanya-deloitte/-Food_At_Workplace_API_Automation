@@ -1,10 +1,1901 @@
 Request method:	GET
-Request URI:	https://food-at-work-backend-urtjok3rza-wl.a.run.app/employee/orders/grayce%40gmail.com
+Request URI:	https://food-at-work-backend-urtjok3rza-wl.a.run.app/items
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	emailId=grayce@gmail.com
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 27 Apr 2022 05:33:17 GMT
+Server: Google Frontend
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{
+    "data": [
+        {
+            "itemsId": 1,
+            "category": "Food",
+            "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+            "name": "Club Sandiwch",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 2,
+            "category": "Snacks",
+            "image": "https://5.imimg.com/data5/QN/CD/MY-14256424/french-fries-500x500.jpg",
+            "name": "French Fries",
+            "details": "Having cheese",
+            "duration": 20,
+            "price": 20,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 3,
+            "category": "Food",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVJ4DchEygbGqeOEyxv8UJB5YcYG-eCicSKw&usqp=CAU",
+            "name": "Chicken Biryani",
+            "details": "Having cheese",
+            "duration": 20,
+            "price": 20,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 4,
+            "category": "Food",
+            "image": "https://us.123rf.com/450wm/natavkusidey/natavkusidey1503/natavkusidey150300191/37346115-frittata-with-chicken-and-spinach-and-fresh-spinach-on-a-dark-wood-background-tinting-selective-focu.jpg?ver=6",
+            "name": "Egg Omlette",
+            "details": "Freshly made with 2 eggs",
+            "duration": 15,
+            "price": 30,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 5,
+            "category": "Food",
+            "image": "https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa-500x500.jpg",
+            "name": "Dosa",
+            "details": "Served with 3 different types of Chutneys",
+            "duration": 15,
+            "price": 55,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 6,
+            "category": "Snacks",
+            "image": "https://rumkisgoldenspoon.com/wp-content/uploads/2021/08/Baby-corn-chilli-2.jpg",
+            "name": "Chilli Babycorn",
+            "details": "Made with Babycorn",
+            "duration": 10,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 7,
+            "category": "Snacks",
+            "image": "https://www.carveyourcraving.com/wp-content/uploads/2018/02/ricotta-cheese-balls-starter-500x375.jpg",
+            "name": "Cheese Balls",
+            "details": "3 Pieces filled with Cheese",
+            "duration": 5,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 8,
+            "category": "Snacks",
+            "image": "https://static.toiimg.com/photo/83114901.cms",
+            "name": "Chicken Nuggets",
+            "details": "Chicken ",
+            "duration": 10,
+            "price": 0,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 9,
+            "category": "Food",
+            "image": "https://static.toiimg.com/thumb/52416693.cms?imgsize=789478&width=800&height=800",
+            "name": "Paao Bhaji",
+            "details": "2 Pieces of Paao",
+            "duration": 15,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 10,
+            "category": "Food",
+            "image": "https://static.toiimg.com/thumb/73514385.cms?imgsize=1468833&width=800&height=800",
+            "name": "Chole Kulche",
+            "details": "2 kulche, 1 full chole",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 11,
+            "category": "Drinks",
+            "image": "https://www.whiskaffair.com/wp-content/uploads/2020/06/Pineapple-Juice-2-3.jpg",
+            "name": "Pineapple Juice",
+            "details": "One Glass of juice",
+            "duration": 10,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 12,
+            "category": "Drinks",
+            "image": "https://static.toiimg.com/photo/85586475.cms",
+            "name": "Kitkat Shake",
+            "details": "One cup of Kitkat shake",
+            "duration": 10,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 13,
+            "category": "Drinks",
+            "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/04/mocktail-3b9ab7d.jpg?quality=90&webp=true&resize=556,505",
+            "name": "Summer Cup",
+            "details": "One refreshing glass of juice",
+            "duration": 15,
+            "price": 35,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 14,
+            "category": "Drinks",
+            "image": "https://smoothie.school/app/uploads/2020/04/Oreo-Nutella-Milkshake.jpg",
+            "name": "5 star",
+            "details": "5 star shake",
+            "duration": 10,
+            "price": 70,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 15,
+            "category": "Drinks",
+            "image": "sawdcnjka",
+            "name": "choco shake",
+            "details": "Shake",
+            "duration": 10,
+            "price": 10,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 16,
+            "category": "Drinks",
+            "image": "no imageEOWNI",
+            "name": "kit kat shake",
+            "details": "kit kat shake",
+            "duration": 10,
+            "price": 85,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 17,
+            "category": "Snacks",
+            "image": "fyftftyf",
+            "name": "Buns",
+            "details": "Cream filled Buns",
+            "duration": 5,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 18,
+            "category": "Food",
+            "image": "ESWNIU",
+            "name": "Sandwhich",
+            "details": "Freshly cooked",
+            "duration": 10,
+            "price": 100,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 19,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Masala Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 40,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 20,
+            "category": "Food",
+            "image": "asd",
+            "name": "asd",
+            "details": "asd",
+            "duration": 0,
+            "price": 13,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 21,
+            "category": "Snacks",
+            "image": "adf",
+            "name": "test",
+            "details": "12",
+            "duration": 12,
+            "price": 12,
+            "veg": false,
+            "available": false
+        },
+        {
+            "itemsId": 22,
+            "category": "Snacks",
+            "image": "adf",
+            "name": "test",
+            "details": "12",
+            "duration": 12,
+            "price": 12,
+            "veg": false,
+            "available": false
+        },
+        {
+            "itemsId": 23,
+            "category": "Food",
+            "image": "sada",
+            "name": "gtgt",
+            "details": "asdasd",
+            "duration": 2131,
+            "price": 12,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 24,
+            "category": "Food",
+            "image": "sada",
+            "name": "gtgt",
+            "details": "asdasd",
+            "duration": 2131,
+            "price": 12,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 25,
+            "category": "Food",
+            "image": "sada",
+            "name": "Butter Chicken",
+            "details": "asdasd",
+            "duration": 2131,
+            "price": 12,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 26,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Masala Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 40,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 27,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "lalala",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 40,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 28,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 29,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 30,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 31,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": false,
+            "available": false
+        },
+        {
+            "itemsId": 32,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 33,
+            "category": null,
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 34,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 35,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 36,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 37,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 38,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 39,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 40,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 41,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 42,
+            "category": "Food",
+            "image": "",
+            "name": "Dahi Puri",
+            "details": "",
+            "duration": 2,
+            "price": 20,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 43,
+            "category": "Food",
+            "image": "",
+            "name": "Dahi Puri",
+            "details": "",
+            "duration": 0,
+            "price": 0,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 44,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 45,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 46,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 47,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 48,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "Pani Puri",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 30,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 49,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": 0,
+            "price": 0,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 50,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 51,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 52,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 53,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 54,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 55,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 56,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 57,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 58,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Aloo paratha",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 59,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Aloo paratha",
+            "details": "Tasty Indian bread and curry",
+            "duration": -20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 60,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Aloo paratha",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 61,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Aloo paratha",
+            "details": "Tasty Indian bread and curry",
+            "duration": -20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 62,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Aloo paratha",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 63,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Aloo paratha",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 64,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Aloo paratha",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 65,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 66,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 67,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 68,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 69,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 70,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 71,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": -20,
+            "price": 50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 72,
+            "category": "Food",
+            "image": "ggug",
+            "name": "Chole Bhature",
+            "details": "Tasty Indian bread and curry",
+            "duration": 20,
+            "price": -50,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 73,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": 20,
+            "price": 0,
+            "veg": true,
+            "available": false
+        },
+        {
+            "itemsId": 74,
+            "category": "Food",
+            "image": "https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2771%2Ftrend20200325141849.jpg",
+            "name": "Chole Kulche",
+            "details": "Chole Kulche",
+            "duration": 30,
+            "price": 80,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 75,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": 20,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 76,
+            "category": "Food",
+            "image": "kdjxnc",
+            "name": "Abc",
+            "details": "cookie",
+            "duration": 10,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 77,
+            "category": "Food",
+            "image": "UBWSDC",
+            "name": "123",
+            "details": "@#!",
+            "duration": 3,
+            "price": 6,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 78,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": 20,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 79,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": 20,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 80,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": -20,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 81,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": -20,
+            "price": -10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 82,
+            "category": "Food",
+            "image": "https://th.bing.com/th/id/OIP.kmGbseBsXXAF9rvyH0tLhAHaE8?w=263&h=180&c=7&r=0&o=5&pid=1.7",
+            "name": "Paav Bhaji",
+            "details": "Paav Bhaji",
+            "duration": 10,
+            "price": 80,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 83,
+            "category": "Snacks",
+            "image": "https://static.toiimg.com/thumb/84291091.cms?width=1200&height=900",
+            "name": "nuggets",
+            "details": "cheese nuggets",
+            "duration": 5,
+            "price": 25,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 84,
+            "category": "Food",
+            "image": "asvhjg",
+            "name": "jasvbc",
+            "details": "yvuasjdw",
+            "duration": 16,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 85,
+            "category": "Food",
+            "image": "ahbsntnhean",
+            "name": "Sandwhich",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 10,
+            "veg": false,
+            "available": false
+        },
+        {
+            "itemsId": 86,
+            "category": "Food",
+            "image": "ahbsntnhean",
+            "name": "Sandwhich",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 10,
+            "veg": false,
+            "available": false
+        },
+        {
+            "itemsId": 87,
+            "category": "Food",
+            "image": "ahbsntnhean",
+            "name": "Sandwhich",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 10,
+            "veg": false,
+            "available": false
+        },
+        {
+            "itemsId": 88,
+            "category": "Snacks",
+            "image": "zdbjvlvul",
+            "name": "Burger",
+            "details": "Vegetables",
+            "duration": 50,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 89,
+            "category": "Food",
+            "image": "ahbsntnhean",
+            "name": "Sandwhich",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 10,
+            "veg": false,
+            "available": false
+        },
+        {
+            "itemsId": 90,
+            "category": "Snacks",
+            "image": "zdbjvlvul",
+            "name": "Burger",
+            "details": "Vegetables",
+            "duration": 50,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 91,
+            "category": "Food",
+            "image": "ahbsntnhean",
+            "name": "Sandwhich",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 10,
+            "veg": false,
+            "available": false
+        },
+        {
+            "itemsId": 92,
+            "category": "Snacks",
+            "image": "zdbjvlvul",
+            "name": "Burger",
+            "details": "Vegetables",
+            "duration": 50,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 93,
+            "category": "Food1",
+            "image": "https://www.bing.com/images/search?q=food&id=869E61693B4B53484DB980820E9C894B7EFF58E1&FORM=IARRTH",
+            "name": "Trail_add_item",
+            "details": "Trail_add_item",
+            "duration": 1,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 94,
+            "category": "Food",
+            "image": "https://www.bing.com/images/search?q=food&id=869E61693B4B53484DB980820E9C894B7EFF58E1&FORM=IARRTH",
+            "name": "Trail_add_item",
+            "details": "Trail_add_item",
+            "duration": 1,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 95,
+            "category": "Food",
+            "image": "https://www.bing.com/images/search?q=food&id=869E61693B4B53484DB980820E9C894B7EFF58E1&FORM=IARRTH",
+            "name": "Trail_add_item",
+            "details": "Trail_add_item",
+            "duration": 1,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 96,
+            "category": "Food",
+            "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+            "name": "special Burger",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 0,
+            "veg": false,
+            "available": null
+        },
+        {
+            "itemsId": 97,
+            "category": "Food",
+            "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+            "name": "special Burger",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 0,
+            "veg": false,
+            "available": null
+        },
+        {
+            "itemsId": 98,
+            "category": "Food",
+            "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+            "name": "special Burger",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 0,
+            "veg": false,
+            "available": null
+        },
+        {
+            "itemsId": 99,
+            "category": "Food",
+            "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+            "name": "special Burger",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 0,
+            "veg": false,
+            "available": null
+        },
+        {
+            "itemsId": 100,
+            "category": "Food",
+            "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+            "name": "special Chicken Burger",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 0,
+            "veg": false,
+            "available": null
+        },
+        {
+            "itemsId": 101,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Randomcadfood",
+            "details": "wasdghhhhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 102,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 103,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 104,
+            "category": "Food",
+            "image": "https://www.tutorialspoint.com/how-to-get-selected-option-using-selenium-webdriver-with-java",
+            "name": "qsd",
+            "details": "asdfgh",
+            "duration": 1,
+            "price": 123,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 105,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 106,
+            "category": "Food",
+            "image": "ahbsntnhean",
+            "name": "Sandwhich",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 10,
+            "veg": false,
+            "available": false
+        },
+        {
+            "itemsId": 107,
+            "category": "Snacks",
+            "image": "zdbjvlvul",
+            "name": "Burger",
+            "details": "Vegetables",
+            "duration": 50,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 108,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 109,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 110,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 111,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 112,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 113,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 114,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        }
+    ],
+    "message": "List of Items",
+    "status": 200
+}
+Request method:	GET
+Request URI:	https://food-at-work-backend-urtjok3rza-wl.a.run.app/freeitems
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 27 Apr 2022 05:33:20 GMT
+Server: Google Frontend
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{
+    "data": [
+        {
+            "itemsId": 6,
+            "category": "Snacks",
+            "image": "https://rumkisgoldenspoon.com/wp-content/uploads/2021/08/Baby-corn-chilli-2.jpg",
+            "name": "Chilli Babycorn",
+            "details": "Made with Babycorn",
+            "duration": 10,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 7,
+            "category": "Snacks",
+            "image": "https://www.carveyourcraving.com/wp-content/uploads/2018/02/ricotta-cheese-balls-starter-500x375.jpg",
+            "name": "Cheese Balls",
+            "details": "3 Pieces filled with Cheese",
+            "duration": 5,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 8,
+            "category": "Snacks",
+            "image": "https://static.toiimg.com/photo/83114901.cms",
+            "name": "Chicken Nuggets",
+            "details": "Chicken ",
+            "duration": 10,
+            "price": 0,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 9,
+            "category": "Food",
+            "image": "https://static.toiimg.com/thumb/52416693.cms?imgsize=789478&width=800&height=800",
+            "name": "Paao Bhaji",
+            "details": "2 Pieces of Paao",
+            "duration": 15,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 11,
+            "category": "Drinks",
+            "image": "https://www.whiskaffair.com/wp-content/uploads/2020/06/Pineapple-Juice-2-3.jpg",
+            "name": "Pineapple Juice",
+            "details": "One Glass of juice",
+            "duration": 10,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 12,
+            "category": "Drinks",
+            "image": "https://static.toiimg.com/photo/85586475.cms",
+            "name": "Kitkat Shake",
+            "details": "One cup of Kitkat shake",
+            "duration": 10,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 75,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": 20,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 78,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": 20,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 79,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": 20,
+            "price": 0,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 80,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": -20,
+            "price": 0,
+            "veg": true,
+            "available": true
+        }
+    ],
+    "message": "List of Free Items",
+    "status": 200
+}
+Request method:	GET
+Request URI:	https://food-at-work-backend-urtjok3rza-wl.a.run.app/paiditems
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 27 Apr 2022 05:33:20 GMT
+Server: Google Frontend
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{
+    "data": [
+        {
+            "itemsId": 1,
+            "category": "Food",
+            "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+            "name": "Club Sandiwch",
+            "details": "Including breads",
+            "duration": 15,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 2,
+            "category": "Snacks",
+            "image": "https://5.imimg.com/data5/QN/CD/MY-14256424/french-fries-500x500.jpg",
+            "name": "French Fries",
+            "details": "Having cheese",
+            "duration": 20,
+            "price": 20,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 3,
+            "category": "Food",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVJ4DchEygbGqeOEyxv8UJB5YcYG-eCicSKw&usqp=CAU",
+            "name": "Chicken Biryani",
+            "details": "Having cheese",
+            "duration": 20,
+            "price": 20,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 4,
+            "category": "Food",
+            "image": "https://us.123rf.com/450wm/natavkusidey/natavkusidey1503/natavkusidey150300191/37346115-frittata-with-chicken-and-spinach-and-fresh-spinach-on-a-dark-wood-background-tinting-selective-focu.jpg?ver=6",
+            "name": "Egg Omlette",
+            "details": "Freshly made with 2 eggs",
+            "duration": 15,
+            "price": 30,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 5,
+            "category": "Food",
+            "image": "https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa-500x500.jpg",
+            "name": "Dosa",
+            "details": "Served with 3 different types of Chutneys",
+            "duration": 15,
+            "price": 55,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 10,
+            "category": "Food",
+            "image": "https://static.toiimg.com/thumb/73514385.cms?imgsize=1468833&width=800&height=800",
+            "name": "Chole Kulche",
+            "details": "2 kulche, 1 full chole",
+            "duration": 20,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 14,
+            "category": "Drinks",
+            "image": "https://smoothie.school/app/uploads/2020/04/Oreo-Nutella-Milkshake.jpg",
+            "name": "5 star",
+            "details": "5 star shake",
+            "duration": 10,
+            "price": 70,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 27,
+            "category": "Food",
+            "image": "fewfef",
+            "name": "lalala",
+            "details": "Tangy and spicy chat",
+            "duration": 10,
+            "price": 40,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 74,
+            "category": "Food",
+            "image": "https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2771%2Ftrend20200325141849.jpg",
+            "name": "Chole Kulche",
+            "details": "Chole Kulche",
+            "duration": 30,
+            "price": 80,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 76,
+            "category": "Food",
+            "image": "kdjxnc",
+            "name": "Abc",
+            "details": "cookie",
+            "duration": 10,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 77,
+            "category": "Food",
+            "image": "UBWSDC",
+            "name": "123",
+            "details": "@#!",
+            "duration": 3,
+            "price": 6,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 81,
+            "category": "",
+            "image": "",
+            "name": "",
+            "details": "",
+            "duration": -20,
+            "price": -10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 82,
+            "category": "Food",
+            "image": "https://th.bing.com/th/id/OIP.kmGbseBsXXAF9rvyH0tLhAHaE8?w=263&h=180&c=7&r=0&o=5&pid=1.7",
+            "name": "Paav Bhaji",
+            "details": "Paav Bhaji",
+            "duration": 10,
+            "price": 80,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 83,
+            "category": "Snacks",
+            "image": "https://static.toiimg.com/thumb/84291091.cms?width=1200&height=900",
+            "name": "nuggets",
+            "details": "cheese nuggets",
+            "duration": 5,
+            "price": 25,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 84,
+            "category": "Food",
+            "image": "asvhjg",
+            "name": "jasvbc",
+            "details": "yvuasjdw",
+            "duration": 16,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 88,
+            "category": "Snacks",
+            "image": "zdbjvlvul",
+            "name": "Burger",
+            "details": "Vegetables",
+            "duration": 50,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 90,
+            "category": "Snacks",
+            "image": "zdbjvlvul",
+            "name": "Burger",
+            "details": "Vegetables",
+            "duration": 50,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 92,
+            "category": "Snacks",
+            "image": "zdbjvlvul",
+            "name": "Burger",
+            "details": "Vegetables",
+            "duration": 50,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 93,
+            "category": "Food1",
+            "image": "https://www.bing.com/images/search?q=food&id=869E61693B4B53484DB980820E9C894B7EFF58E1&FORM=IARRTH",
+            "name": "Trail_add_item",
+            "details": "Trail_add_item",
+            "duration": 1,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 94,
+            "category": "Food",
+            "image": "https://www.bing.com/images/search?q=food&id=869E61693B4B53484DB980820E9C894B7EFF58E1&FORM=IARRTH",
+            "name": "Trail_add_item",
+            "details": "Trail_add_item",
+            "duration": 1,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 95,
+            "category": "Food",
+            "image": "https://www.bing.com/images/search?q=food&id=869E61693B4B53484DB980820E9C894B7EFF58E1&FORM=IARRTH",
+            "name": "Trail_add_item",
+            "details": "Trail_add_item",
+            "duration": 1,
+            "price": 10,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 101,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Randomcadfood",
+            "details": "wasdghhhhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 102,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 103,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 104,
+            "category": "Food",
+            "image": "https://www.tutorialspoint.com/how-to-get-selected-option-using-selenium-webdriver-with-java",
+            "name": "qsd",
+            "details": "asdfgh",
+            "duration": 1,
+            "price": 123,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 105,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 107,
+            "category": "Snacks",
+            "image": "zdbjvlvul",
+            "name": "Burger",
+            "details": "Vegetables",
+            "duration": 50,
+            "price": 50,
+            "veg": true,
+            "available": true
+        },
+        {
+            "itemsId": 108,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 109,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 110,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 111,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 112,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 113,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        },
+        {
+            "itemsId": 114,
+            "category": "Food",
+            "image": "https://www.volunteerworkindia.org/wp-content/uploads/2015/01/Indian-Thali.jpg",
+            "name": "Ranm cadfd",
+            "details": "wasdghhhjgg",
+            "duration": 1,
+            "price": 10,
+            "veg": false,
+            "available": true
+        }
+    ],
+    "message": "List of Paid Items",
+    "status": 200
+}
+Request method:	POST
+Request URI:	https://food-at-work-backend-urtjok3rza-wl.a.run.app/items
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "itemsId": 100,
+    "category": "Food",
+    "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+    "name": "special Burger",
+    "details": "Including breads",
+    "duration": 15,
+    "price": 0,
+    "isAvailable": true,
+    "isVeg": true
+}
+HTTP/1.1 201 Created
+vary: Origin
+vary: Access-Control-Request-Method
+vary: Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-type: application/json
+X-Cloud-Trace-Context: 3872f71491c044965160e7081469b1d2
+Date: Wed, 27 Apr 2022 05:33:21 GMT
+Server: Google Frontend
+Content-Length: 303
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{
+    "data": {
+        "itemsId": 100,
+        "category": "Food",
+        "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+        "name": "special Burger",
+        "details": "Including breads",
+        "duration": 15,
+        "price": 0,
+        "veg": false,
+        "available": null
+    },
+    "message": "Item Successfully Added",
+    "status": 201
+}
+Request method:	PUT
+Request URI:	https://food-at-work-backend-urtjok3rza-wl.a.run.app/availableStatus/13
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	itemID=13
 Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJvbWN2QGRlbG9pdHRlLmNvbSIsIkFkbWluIjp0cnVlLCJleHAiOjE2NTEwNDM1MDMsImlhdCI6MTY1MTAzMjcwM30.bRAkEEJLrXo40850jQSVaMvZtwgL90VnKKrvrQoCm90
 				Accept=*/*
 				Content-Type=application/json
@@ -15,7 +1906,6 @@ HTTP/1.1 200 OK
 vary: Origin
 vary: Access-Control-Request-Method
 vary: Access-Control-Request-Headers
-content-disposition: inline;filename=f.txt
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate
@@ -24,14 +1914,74 @@ expires: 0
 x-frame-options: DENY
 content-type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 27 Apr 2022 04:22:20 GMT
+Date: Wed, 27 Apr 2022 05:33:22 GMT
 Server: Google Frontend
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
 {
-    "data": [
-        
-    ],
-    "message": "Orders placed by Customer",
+    "data": {
+        "itemsId": 13,
+        "category": "Drinks",
+        "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/04/mocktail-3b9ab7d.jpg?quality=90&webp=true&resize=556,505",
+        "name": "Summer Cup",
+        "details": "One refreshing glass of juice",
+        "duration": 15,
+        "price": 35,
+        "veg": true,
+        "available": true
+    },
+    "message": "Item Availability Updated",
+    "status": 200
+}
+Request method:	PUT
+Request URI:	https://food-at-work-backend-urtjok3rza-wl.a.run.app/items
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "itemsId": 100,
+    "category": "Food",
+    "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+    "name": "special Chicken Burger",
+    "details": "Including breads",
+    "duration": 15,
+    "price": 0,
+    "isAvailable": true,
+    "isVeg": true
+}
+HTTP/1.1 200 OK
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 27 Apr 2022 05:33:23 GMT
+Server: Google Frontend
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{
+    "data": {
+        "itemsId": 100,
+        "category": "Food",
+        "image": "https://img.freepik.com/free-photo/ham-cheese-club-sandwich-plate_1147-510.jpg?size=626&ext=jpg",
+        "name": "special Chicken Burger",
+        "details": "Including breads",
+        "duration": 15,
+        "price": 0,
+        "veg": false,
+        "available": null
+    },
+    "message": "Item Successfully Updated",
     "status": 200
 }
