@@ -1,8 +1,5 @@
 package resources.helperclasses;
 
-import java.io.*;
-import java.util.Properties;
-
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import io.restassured.builder.RequestSpecBuilder;
@@ -19,7 +16,8 @@ import org.testng.Assert;
 import testAutomationListner.ExtentReportListener;
 import testAutomationListner.Log;
 
-import static io.restassured.RestAssured.requestSpecification;
+import java.io.*;
+import java.util.Properties;
 
 public class Utils extends ExtentReportListener {
 
