@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/pmanideep/Food_At_Workplace_API_Automation/src/test/java/testAPI">
+        <classes>
+<!--            <class name="testAPI.Order_Controller">-->
+<!--                <methods>-->
+<!--                    <include name="getall_orderdata"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="testAPI.TestCreateAdminAPI">
+                <methods>
+                    <include name="createAdmin"/>
+                    <include name="loginAdmin"/>
+                </methods>
+            </class>
+            <class name="testAPI.TestCreateUserAPI">
+                <methods>
+                    <include name="postUserDetails"/>
+                    <include name="verifyPassword"/>
+                    <include name="CheckEmail"/>
+                    <include name="SendOTP"/>
+                    <include name="verifyOTP"/>
+                </methods>
+            </class>
+            <class name="testAPI.TestTokenController">
+                <methods>
+                    <include name="postToken"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

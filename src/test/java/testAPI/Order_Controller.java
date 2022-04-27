@@ -26,12 +26,11 @@ public class Order_Controller extends BaseClass {
     static String token;
 
 
-
     @Test(priority = 1)
     public void getall_orderdata() throws IOException {
         Log.info("Reading csv file to get token value");
-        token=handlecsv.readFromLast(Utils.getProperties("tokendetails"));
-        token=token.replace("\"","");
+        token = handlecsv.readFromLast(Utils.getProperties("tokendetails"));
+        token = token.replace("\"", "");
         Log.info("Getting all order details");
         Response response = given().
                 spec(requestSpecification()).
@@ -42,12 +41,12 @@ public class Order_Controller extends BaseClass {
         JSONObject obj = new JSONObject(response.asString());
         System.out.println(response.asString());
         ExtentTest getorederdetails = extent.createTest("Get order details Test");
-        validateResponse(Utils.getProperties("getorders"),Utils.getProperties("message"), obj,getorederdetails);
-        validateResponse(Utils.getProperties("code_200"),Utils.getProperties("status"), obj,getorederdetails);
-        Object orderid=obj.getJSONArray("data").getJSONObject(0).get("orderId");
-        Object orderstatus=obj.getJSONArray("data").getJSONObject(0).get("orderStatus");
-        order_id= (int) orderid;
-        order_status= (int) orderstatus;
+        validateResponse(Utils.getProperties("getorders"), Utils.getProperties("message"), obj, getorederdetails);
+        validateResponse(Utils.getProperties("code_200"), Utils.getProperties("status"), obj, getorederdetails);
+        Object orderid = obj.getJSONArray("data").getJSONObject(0).get("orderId");
+        Object orderstatus = obj.getJSONArray("data").getJSONObject(0).get("orderStatus");
+        order_id = (int) orderid;
+        order_status = (int) orderstatus;
     }
 
 

@@ -40,10 +40,11 @@ public class User {
         isAdmin = admin;
     }
 
-    public boolean getAdmin(){
+    public boolean getAdmin() {
         return admin;
     }
-    public void setAdmin(boolean admin){
+
+    public void setAdmin(boolean admin) {
         this.admin = admin;
     }
 }

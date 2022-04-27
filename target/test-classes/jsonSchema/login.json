@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "headers": {
+          "type": "object"
+        },
+        "body": {
+          "type": "object",
+          "properties": {
+            "token": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "token"
+          ]
+        },
+        "statusCode": {
+          "type": "string"
+        },
+        "statusCodeValue": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "headers",
+        "body",
+        "statusCode",
+        "statusCodeValue"
+      ]
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "data",
+    "message",
+    "status"
+  ]
+}
