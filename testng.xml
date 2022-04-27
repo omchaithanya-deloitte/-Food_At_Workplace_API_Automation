@@ -4,39 +4,12 @@
     <test verbose="2" preserve-order="true"
           name="Food_At_Workplace_API_Automation">
         <classes>
-            <class name="testAPI.Order_Controller">
-                <methods>
-                    <include name="getall_orderdata"/>
-                    <include name="getorderdata_byorderid"/>
-                    <include name="updateorderstatus_byid"/>
-                    <include name="getorderstatus_byid"/>
-                    <include name="deleteorder_byorderid_afterstatusupdate"/>
-                    <include name="getorder_byorderstatus"/>
-                    <include name="getorder_byorderstatus"/>
-                    <include name="placeorder"/>
-                    <include name="deleteorder_byorderid"/>
-                </methods>
-            </class>
-            <class name="testAPI.TestCreateAdminAPI">
-                <methods>
-                    <include name="createAdmin"/>
-                    <include name="loginAdmin"/>
-                </methods>
-            </class>
-            <class name="testAPI.TestCreateUserAPI">
-                <methods>
-                    <include name="postUserDetails"/>
-                    <include name="verifyPassword"/>
-                    <include name="CheckEmail"/>
-                    <include name="SendOTP"/>
-                    <include name="verifyOTP"/>
-                </methods>
-            </class>
-            <class name="testAPI.TestTokenController">
-                <methods>
-                    <include name="postToken"/>
-                </methods>
-            </class>
+            <class name="testAPI.TestTokenController"/>
+            <class name="testAPI.TestCreateAdminAPI"/>
+            <class name="testAPI.TestCreateUserAPI"/>
+            <class name="testAPI.TestEmployeesController"/>
+            <class name="testAPI.TestItemsController"/>
+            <class name="testAPI.Order_Controller"/>
         </classes>
     </test>
 </suite>
