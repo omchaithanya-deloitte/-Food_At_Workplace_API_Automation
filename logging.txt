@@ -11,14 +11,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "aaron@gmail.com",
-    "password": "Aaron510",
+    "email": "fernando@gmail.com",
+    "password": "Fernando501",
     "isAdmin": true,
     "admin": true
 }
 HTTP/1.1 200 OK
 vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
-set-cookie: JSESSIONID=137F172905398380FDFD0559363E7961; Path=/; HttpOnly
+set-cookie: JSESSIONID=A7F8674EF580B93D763B49247AA796E1; Path=/; HttpOnly
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate
@@ -27,7 +27,7 @@ expires: 0
 x-frame-options: DENY
 content-type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 27 Apr 2022 05:35:55 GMT
+Date: Wed, 27 Apr 2022 12:02:14 GMT
 Server: Google Frontend
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
@@ -49,8 +49,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "aaron@gmail.com",
-    "password": "Aaron510",
+    "email": "fernando@gmail.com",
+    "password": "Fernando501",
     "isAdmin": true,
     "admin": true
 }
@@ -64,7 +64,7 @@ expires: 0
 x-frame-options: DENY
 content-type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 27 Apr 2022 05:35:55 GMT
+Date: Wed, 27 Apr 2022 12:02:14 GMT
 Server: Google Frontend
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
@@ -74,7 +74,7 @@ Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=25920
             
         },
         "body": {
-            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYXJvbkBnbWFpbC5jb20iLCJBZG1pbiI6dHJ1ZSwiZXhwIjoxNjUxMDQ4NTU1LCJpYXQiOjE2NTEwMzc3NTV9._7KrUztY7y5O3zjVywjoFHeHUBdArH-orNBawfE5-O8"
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmZXJuYW5kb0BnbWFpbC5jb20iLCJBZG1pbiI6dHJ1ZSwiZXhwIjoxNjUxMDcxNzM0LCJpYXQiOjE2NTEwNjA5MzR9.KYQ_rAb_gn6Ngz8EUEfTSNkpbSiupPfc741K9012Tyc"
         },
         "statusCode": "OK",
         "statusCodeValue": 200
@@ -95,14 +95,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "boris@gmail.com",
-    "password": "Boris610",
+    "email": "suzanne@gmail.com",
+    "password": "Suzanne480",
     "isAdmin": false,
     "admin": false
 }
 HTTP/1.1 200 OK
 vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
-set-cookie: JSESSIONID=468F785B13E1A27880BA8CAEA7F01EE7; Path=/; HttpOnly
+set-cookie: JSESSIONID=FCD3C43682BCEFA1B1762BBDABC1B95A; Path=/; HttpOnly
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate
@@ -111,7 +111,7 @@ expires: 0
 x-frame-options: DENY
 content-type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 27 Apr 2022 05:35:56 GMT
+Date: Wed, 27 Apr 2022 12:02:16 GMT
 Server: Google Frontend
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
@@ -121,7 +121,7 @@ Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=25920
             
         },
         "body": {
-            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib3Jpc0BnbWFpbC5jb20iLCJBZG1pbiI6ZmFsc2UsImV4cCI6MTY1MTA0ODU1NiwiaWF0IjoxNjUxMDM3NzU2fQ.NuUIT742Xzj5-3PTa5QgIV-Rln1sgDn5oudmpuIPdrI"
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXphbm5lQGdtYWlsLmNvbSIsIkFkbWluIjpmYWxzZSwiZXhwIjoxNjUxMDcxNzM2LCJpYXQiOjE2NTEwNjA5MzZ9.TPTrfnypdnimImNRJgCnzFxHfiCuYqpqdbGgDPSw148"
         },
         "statusCode": "OK",
         "statusCodeValue": 200
@@ -142,16 +142,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "boris@gmail.com",
-    "password": "Boris610",
+    "email": "suzanne@gmail.com",
+    "password": "Suzanne480",
     "isAdmin": false,
     "admin": false
 }
 HTTP/1.1 200 OK
-vary: Origin
-vary: Access-Control-Request-Method
-vary: Access-Control-Request-Headers
-set-cookie: JSESSIONID=9C7C73B875CEE7F8E743933B2FE2B2B2; Path=/; HttpOnly
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+set-cookie: JSESSIONID=B8F28635D431806862BFB2086F0236A9; Path=/; HttpOnly
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate
@@ -160,7 +158,7 @@ expires: 0
 x-frame-options: DENY
 content-type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 27 Apr 2022 05:35:57 GMT
+Date: Wed, 27 Apr 2022 12:02:17 GMT
 Server: Google Frontend
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
@@ -170,7 +168,7 @@ Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=25920
             
         },
         "body": {
-            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib3Jpc0BnbWFpbC5jb20iLCJBZG1pbiI6ZmFsc2UsImV4cCI6MTY1MTA0ODU1NywiaWF0IjoxNjUxMDM3NzU3fQ.LOyIza3Ca29irL0BKTMMG3wEY81J_zzPEuJvf36jaCw"
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXphbm5lQGdtYWlsLmNvbSIsIkFkbWluIjpmYWxzZSwiZXhwIjoxNjUxMDcxNzM3LCJpYXQiOjE2NTEwNjA5Mzd9.xUKZ3ONCPRdfiV4XjotcHYRnbW0zQoKffGxIpQhabr8"
         },
         "statusCode": "OK",
         "statusCodeValue": 200
@@ -191,14 +189,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "boris@gmail.com",
+    "email": "suzanne@gmail.com",
     "password": null,
     "isAdmin": false,
     "admin": false
 }
 HTTP/1.1 200 OK
 vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
-set-cookie: JSESSIONID=F7B653912D345413888450C5C607795A; Path=/; HttpOnly
+set-cookie: JSESSIONID=CDB15ED4A2A724462C9DEC3AD9B7BF8D; Path=/; HttpOnly
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate
@@ -207,7 +205,7 @@ expires: 0
 x-frame-options: DENY
 content-type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 27 Apr 2022 05:35:57 GMT
+Date: Wed, 27 Apr 2022 12:02:18 GMT
 Server: Google Frontend
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
@@ -229,14 +227,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "boris@gmail.com",
+    "email": "suzanne@gmail.com",
     "password": null,
     "isAdmin": false,
     "admin": false
 }
 HTTP/1.1 200 OK
 vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
-set-cookie: JSESSIONID=48FA49B0135722166754D3140DA4220E; Path=/; HttpOnly
+set-cookie: JSESSIONID=7A5441E5222323CE95570B276CFC99FF; Path=/; HttpOnly
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate
@@ -245,7 +243,7 @@ expires: 0
 x-frame-options: DENY
 content-type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 27 Apr 2022 05:35:59 GMT
+Date: Wed, 27 Apr 2022 12:02:20 GMT
 Server: Google Frontend
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
@@ -267,16 +265,14 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "Boris610",
-    "password": "boris@gmail.com",
+    "email": "Suzanne480",
+    "password": "suzanne@gmail.com",
     "isAdmin": false,
     "admin": false
 }
 HTTP/1.1 500 Internal Server Error
-vary: Origin
-vary: Access-Control-Request-Method
-vary: Access-Control-Request-Headers
-set-cookie: JSESSIONID=902740BA606A8FA827DACCB42C9C6D29; Path=/; HttpOnly
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+set-cookie: JSESSIONID=B6418525521F364E1903CAB8E50C7A5F; Path=/; HttpOnly
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate
@@ -284,14 +280,14 @@ pragma: no-cache
 expires: 0
 x-frame-options: DENY
 content-type: application/json
-X-Cloud-Trace-Context: af84787b230d03c5b748b89ce220d556
-Date: Wed, 27 Apr 2022 05:35:59 GMT
+X-Cloud-Trace-Context: 67b2e8d22fa6cb5c0f258e47f80fba1e
+Date: Wed, 27 Apr 2022 12:02:21 GMT
 Server: Google Frontend
 Content-Length: 143
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
 {
-    "timestamp": "2022-04-27T05:35:59.526+00:00",
+    "timestamp": "2022-04-27T12:02:21.514+00:00",
     "status": 500,
     "error": "Internal Server Error",
     "message": "No message available",
@@ -310,15 +306,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "boris@gmail.com",
-    "password": "Boris610",
+    "email": "suzanne@gmail.com",
+    "password": "Suzanne480",
     "isAdmin": false,
     "admin": false
 }
 HTTP/1.1 200 OK
-vary: Origin
-vary: Access-Control-Request-Method
-vary: Access-Control-Request-Headers
+vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 cache-control: no-cache, no-store, max-age=0, must-revalidate
@@ -327,10 +321,10 @@ expires: 0
 x-frame-options: DENY
 content-type: application/json
 Transfer-Encoding: chunked
-Date: Wed, 27 Apr 2022 05:36:00 GMT
+Date: Wed, 27 Apr 2022 12:02:22 GMT
 Server: Google Frontend
 Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
 {
-    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJib3Jpc0BnbWFpbC5jb20iLCJBZG1pbiI6ZmFsc2UsImV4cCI6MTY1MTA0ODU2MCwiaWF0IjoxNjUxMDM3NzYwfQ.pDn-GJx83cxVid6IOf5dp73cQoZfYQDUiQD73VFupYE"
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXphbm5lQGdtYWlsLmNvbSIsIkFkbWluIjpmYWxzZSwiZXhwIjoxNjUxMDcxNzQyLCJpYXQiOjE2NTEwNjA5NDJ9.xrxjYJJKw4vXeLVKnbKeSZ8wxo1AWFCp5VITaCgobjY"
 }

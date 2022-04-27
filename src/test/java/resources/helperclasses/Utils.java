@@ -53,7 +53,7 @@ public class Utils extends ExtentReportListener {
 
     public static String getGlobalValue(String key) throws IOException {
         Properties prop = new Properties();
-        FileInputStream fis = new FileInputStream("src/test/resources/global.properties");
+        FileInputStream fis = new FileInputStream("src/test/java/resources/properties/global.properties");
         prop.load(fis);
         return prop.getProperty(key);
 

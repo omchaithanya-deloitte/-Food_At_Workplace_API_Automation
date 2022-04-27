@@ -7,7 +7,7 @@ import resources.helperclasses.Utils;
 import testAutomationListner.ExtentReportListener;
 import testAutomationListner.TestAllureListener;
 
-@Listeners(ExtentReportListener.class)
+//@Listeners(ExtentReportListener.class)
 public class BaseClass extends Utils {
 
     @BeforeMethod

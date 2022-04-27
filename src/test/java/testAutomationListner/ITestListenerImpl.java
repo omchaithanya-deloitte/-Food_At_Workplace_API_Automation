@@ -3,36 +3,38 @@ package testAutomationListner;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import resources.baseClass.BaseClass;
 
 
-public class ITestListenerImpl implements ITestListener {
+public class ITestListenerImpl extends BaseClass implements ITestListener {
 
     public void onTestStart(ITestResult result) {
-        ExtentReportListener.init();
+        Log.info("Test Start");
     }
 
     public void onTestSuccess(ITestResult result) {
-        System.out.println("PASS");
+        Log.info("Test Pass");
     }
 
     public void onTestFailure(ITestResult result) {
-
+        Log.error("Test Fail");
     }
 
     public void onTestSkipped(ITestResult result) {
-        System.out.println("SKIP");
+        Log.info("Test Skip");
 
     }
 
 
     public void onStart(ITestContext context) {
-        System.out.println("Execution started....");
+        Log.info("Execution started....");
+        extent = setUp();
     }
 
     public void onFinish(ITestContext context) {
-        System.out.println("Execution completed...");
+        Log.info("Execution completed...");
         ExtentReportListener.endReport();
-        System.out.println("Generated Report. . .");
+        Log.info("Generated Report. . .");
 
     }
 

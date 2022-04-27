@@ -13,7 +13,6 @@ import org.testng.annotations.Test;
 import resources.baseClass.BaseClass;
 import resources.helperclasses.Utils;
 import resources.helperclasses.handlecsv;
-import testAutomationListner.ExtentReportListener;
 import testAutomationListner.Log;
 
 import java.io.IOException;
@@ -47,7 +46,7 @@ public class TestTokenController extends BaseClass {
         JSONObject obj = new JSONObject(response.asString());
         Log.info(response.asString());
 
-        ExtentTest userLogInTest = ExtentReportListener.extent.createTest("Post Token");
+        ExtentTest userLogInTest = extent.createTest("Post Token");
 
         String body = response.getBody().asString();
         Assert.assertTrue(body.contains("token"));
