@@ -1,4 +1,5 @@
 package resources.getfakedetails;
+
 import com.github.javafaker.Faker;
 import resources.helperclasses.Utils;
 import resources.helperclasses.handlecsv;
