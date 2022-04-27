@@ -4,11 +4,19 @@
     <test verbose="2" preserve-order="true"
           name="Food_At_Workplace_API_Automation">
         <classes>
-<!--            <class name="testAPI.Order_Controller">-->
-<!--                <methods>-->
-<!--                    <include name="getall_orderdata"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="testAPI.Order_Controller">
+                <methods>
+                    <include name="getall_orderdata"/>
+                    <include name="getorderdata_byorderid"/>
+                    <include name="updateorderstatus_byid"/>
+                    <include name="getorderstatus_byid"/>
+                    <include name="deleteorder_byorderid_afterstatusupdate"/>
+                    <include name="getorder_byorderstatus"/>
+                    <include name="getorder_byorderstatus"/>
+                    <include name="placeorder"/>
+                    <include name="deleteorder_byorderid"/>
+                </methods>
+            </class>
             <class name="testAPI.TestCreateAdminAPI">
                 <methods>
                     <include name="createAdmin"/>

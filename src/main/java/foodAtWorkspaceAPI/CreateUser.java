@@ -18,10 +18,4 @@ public class CreateUser {
         return user;
     }
 
-    public User sendRequest(String email) {
-        User user = new User();
-        user.setEmail(email);
-        return user;
-    }
-
 }

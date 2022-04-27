@@ -1375,3 +1375,106 @@
 [INFO ] 2022-04-27 17:59:42.336 [main] Log - {"timestamp":"2022-04-27T12:29:42.121+00:00","status":500,"error":"Internal Server Error","message":"No message available","path":"/verifyotp"}
 [INFO ] 2022-04-27 17:59:42.355 [main] Log - Fetched the details From the CSV File
 [INFO ] 2022-04-27 17:59:43.056 [main] Log - {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWVsaWFAZ21haWwuY29tIiwiQWRtaW4iOmZhbHNlLCJleHAiOjE2NTEwNzMzODIsImlhdCI6MTY1MTA2MjU4Mn0.QCvNLp61lVKIqKpO3M8sbuICySZ3DM8YFvGputEM6gs"}
+[INFO ] 2022-04-27 19:14:47.304 [main] Log - Generated the Random user Details
+[INFO ] 2022-04-27 19:14:49.754 [main] Log - {"data":null,"message":"Admin Created","status":200}
+[INFO ] 2022-04-27 19:14:49.770 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:49.770 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:49.788 [main] Log - Fetched the details from CSV File
+[INFO ] 2022-04-27 19:14:50.587 [main] Log - {"data":{"headers":{},"body":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJsb256b0BnbWFpbC5jb20iLCJBZG1pbiI6dHJ1ZSwiZXhwIjoxNjUxMDc3ODkwLCJpYXQiOjE2NTEwNjcwOTB9.v7QWxgcINTgbC6CHZgUtT7Y6TNGLloBg5xgsoAIQ0xg"},"statusCode":"OK","statusCodeValue":200},"message":"Admin Authorized","status":200}
+[INFO ] 2022-04-27 19:14:50.587 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:50.587 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:50.988 [main] Log - Generated the Random user Details
+[INFO ] 2022-04-27 19:14:51.938 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:14:51.954 [main] Log - {"data":{"headers":{},"body":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYXJsb25AZ21haWwuY29tIiwiQWRtaW4iOmZhbHNlLCJleHAiOjE2NTEwNzc4OTEsImlhdCI6MTY1MTA2NzA5MX0.NvUtfwrEYsjj38AvSdqfyvac7nuPoDB0nUnxorwqHQ4"},"statusCode":"OK","statusCodeValue":200},"message":"User Authorized","status":200}
+[INFO ] 2022-04-27 19:14:51.954 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:51.954 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:51.971 [main] Log - Fetched the Token Successfully
+[INFO ] 2022-04-27 19:14:51.971 [main] Log - Write the Token to the CSV File
+[INFO ] 2022-04-27 19:14:51.987 [main] Log - Fetched the Details From CSV File to Verify Password
+[INFO ] 2022-04-27 19:14:52.971 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:14:52.971 [main] Log - {"data":{"headers":{},"body":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYXJsb25AZ21haWwuY29tIiwiQWRtaW4iOmZhbHNlLCJleHAiOjE2NTEwNzc4OTIsImlhdCI6MTY1MTA2NzA5Mn0.ZntpWuJEuZQtgK0ezhHZaFJ8DnnU0H4URZQSI-uKGqE"},"statusCode":"OK","statusCodeValue":200},"message":"User Authorized","status":200}
+[INFO ] 2022-04-27 19:14:52.971 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:52.971 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:52.987 [main] Log - Fetched the Details From CSV File to Check Email
+[INFO ] 2022-04-27 19:14:53.886 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:14:53.886 [main] Log - {"data":1,"message":"Existing User. Please Verify.","status":200}
+[INFO ] 2022-04-27 19:14:53.886 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:53.886 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:53.904 [main] Log - Fetched the Details From CSV File to send OTP
+[INFO ] 2022-04-27 19:14:56.590 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:14:56.590 [main] Log - {"data":null,"message":"OTP sent Successfully","status":200}
+[INFO ] 2022-04-27 19:14:56.590 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:56.590 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:14:56.604 [main] Log - Fetched the Details From CSV File For Verifying the OTP
+[INFO ] 2022-04-27 19:14:57.271 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:14:57.271 [main] Log - {"timestamp":"2022-04-27T13:44:56.991+00:00","status":500,"error":"Internal Server Error","message":"No message available","path":"/verifyotp"}
+[INFO ] 2022-04-27 19:14:57.287 [main] Log - Fetched the details From the CSV File
+[INFO ] 2022-04-27 19:14:57.944 [main] Log - {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYXJsb25AZ21haWwuY29tIiwiQWRtaW4iOmZhbHNlLCJleHAiOjE2NTEwNzc4OTcsImlhdCI6MTY1MTA2NzA5N30.Wmf7dwKxDgDKcRZktF6nOpilv9E7bmZ8pcuzxuFdU7k"}
+[INFO ] 2022-04-27 19:39:51.604 [main] Log - Reading csv file to get token value
+[INFO ] 2022-04-27 19:39:51.620 [main] Log - Getting all order details
+[INFO ] 2022-04-27 19:40:02.829 [main] Log - All orrders placed till now is received
+[INFO ] 2022-04-27 19:40:02.844 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:02.844 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:02.870 [main] Log - Getting order details using orderid
+[INFO ] 2022-04-27 19:40:03.651 [main] Log - Order details with particular order id is received
+[INFO ] 2022-04-27 19:40:03.667 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:03.667 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:04.220 [main] Log - Update the order status using order id
+[INFO ] 2022-04-27 19:40:05.392 [main] Log - Order status is updated
+[INFO ] 2022-04-27 19:40:05.392 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:05.404 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:05.420 [main] Log - Get order status using order id
+[INFO ] 2022-04-27 19:40:06.620 [main] Log - Order status is received using order id
+[INFO ] 2022-04-27 19:40:06.620 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:06.620 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:06.636 [main] Log - Delete the order after updating the order status
+[INFO ] 2022-04-27 19:40:07.950 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:07.950 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:07.971 [main] Log - Cannot delete the order since order status is updated and error message is verified
+[INFO ] 2022-04-27 19:40:07.987 [main] Log - getting order data by order status
+[INFO ] 2022-04-27 19:40:09.089 [main] Log - Recently updated order details are received using orderr status
+[INFO ] 2022-04-27 19:40:09.089 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:09.089 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:09.103 [main] Log - getting user email id from csv file
+[INFO ] 2022-04-27 19:40:09.421 [main] Log - Placing the order
+[INFO ] 2022-04-27 19:40:10.723 [main] Log - Order is placed
+[INFO ] 2022-04-27 19:40:10.723 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:10.723 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:12.581 [main] Log - Order is deleted
+[INFO ] 2022-04-27 19:40:12.581 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:12.597 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:12.620 [main] Log - Generated the Random user Details
+[INFO ] 2022-04-27 19:40:13.720 [main] Log - {"data":null,"message":"Admin Created","status":200}
+[INFO ] 2022-04-27 19:40:13.720 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:13.720 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:13.736 [main] Log - Fetched the details from CSV File
+[INFO ] 2022-04-27 19:40:14.786 [main] Log - {"data":{"headers":{},"body":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbGVhbm9yZUBnbWFpbC5jb20iLCJBZG1pbiI6dHJ1ZSwiZXhwIjoxNjUxMDc5NDE0LCJpYXQiOjE2NTEwNjg2MTR9.XYNSkY3Rl7M4WDX7gVhamRfQLMANAw0M7BKvmr28PxM"},"statusCode":"OK","statusCodeValue":200},"message":"Admin Authorized","status":200}
+[INFO ] 2022-04-27 19:40:14.800 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:14.800 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:14.819 [main] Log - Generated the Random user Details
+[INFO ] 2022-04-27 19:40:15.536 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:40:15.536 [main] Log - {"data":{"headers":{},"body":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ3aWxsb3dAZ21haWwuY29tIiwiQWRtaW4iOmZhbHNlLCJleHAiOjE2NTEwNzk0MTUsImlhdCI6MTY1MTA2ODYxNX0.4O80dzWXkVWhvFIjoUAaZAkZNDqVUgmLnb_W-ZOhLOk"},"statusCode":"OK","statusCodeValue":200},"message":"User Authorized","status":200}
+[INFO ] 2022-04-27 19:40:15.536 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:15.536 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:15.553 [main] Log - Fetched the Token Successfully
+[INFO ] 2022-04-27 19:40:15.553 [main] Log - Write the Token to the CSV File
+[INFO ] 2022-04-27 19:40:15.553 [main] Log - Fetched the Details From CSV File to Verify Password
+[INFO ] 2022-04-27 19:40:16.521 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:40:16.521 [main] Log - {"data":{"headers":{},"body":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ3aWxsb3dAZ21haWwuY29tIiwiQWRtaW4iOmZhbHNlLCJleHAiOjE2NTEwNzk0MTYsImlhdCI6MTY1MTA2ODYxNn0.1YuGnkGdPO_rtWHBpeyc3bMPBYRIiZzQjcnDpH8XdC8"},"statusCode":"OK","statusCodeValue":200},"message":"User Authorized","status":200}
+[INFO ] 2022-04-27 19:40:16.536 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:16.536 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:16.552 [main] Log - Fetched the Details From CSV File to Check Email
+[INFO ] 2022-04-27 19:40:17.270 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:40:17.270 [main] Log - {"data":1,"message":"Existing User. Please Verify.","status":200}
+[INFO ] 2022-04-27 19:40:17.270 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:17.270 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:17.288 [main] Log - Fetched the Details From CSV File to send OTP
+[INFO ] 2022-04-27 19:40:19.219 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:40:19.219 [main] Log - {"data":null,"message":"OTP sent Successfully","status":200}
+[INFO ] 2022-04-27 19:40:19.219 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:19.219 [main] Log - Assertion validated.
+[INFO ] 2022-04-27 19:40:19.236 [main] Log - Fetched the Details From CSV File For Verifying the OTP
+[INFO ] 2022-04-27 19:40:19.937 [main] Log - Got the Response from API
+[INFO ] 2022-04-27 19:40:19.937 [main] Log - {"timestamp":"2022-04-27T14:10:19.697+00:00","status":500,"error":"Internal Server Error","message":"No message available","path":"/verifyotp"}
+[INFO ] 2022-04-27 19:40:19.957 [main] Log - Fetched the details From the CSV File
+[INFO ] 2022-04-27 19:40:20.656 [main] Log - {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ3aWxsb3dAZ21haWwuY29tIiwiQWRtaW4iOmZhbHNlLCJleHAiOjE2NTEwNzk0MjAsImlhdCI6MTY1MTA2ODYyMH0.bo_fvp1mKk7ubnajRFYs-VkMwBeOy-O0losi2XWld1o"}
