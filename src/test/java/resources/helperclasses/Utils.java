@@ -1,17 +1,17 @@
 package resources.helperclasses;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintStream;
+import java.io.*;
 import java.util.Properties;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.sun.deploy.association.utility.AppConstants;
+import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
@@ -20,6 +20,8 @@ import org.json.JSONObject;
 import org.testng.Assert;
 import testAutomationListner.ExtentReportListener;
 import testAutomationListner.Log;
+
+import static io.restassured.RestAssured.requestSpecification;
 
 public class Utils extends ExtentReportListener {
 
@@ -55,7 +57,7 @@ public class Utils extends ExtentReportListener {
 	public static String getGlobalValue(String key) throws IOException
 	{
 		Properties prop =new Properties();
-		FileInputStream fis =new FileInputStream("src/test/resources/global.properties");
+		FileInputStream fis =new FileInputStream("src/test/java/resources/properties/global.properties");
 		prop.load(fis);
 		return prop.getProperty(key);
 		
@@ -95,4 +97,16 @@ public class Utils extends ExtentReportListener {
 		String url = properties.getProperty(uri);
 		return url;
 	}
-}
+
+	public static void responseValidation(Response response, String jsonSchemaFilepath, int expectedStatusCode)  {
+
+		response.then().
+				assertThat().body(JsonSchemaValidator.
+						matchesJsonSchema(new File(jsonSchemaFilepath)))
+					.statusCode(expectedStatusCode).
+				contentType("application/json").extract();
+
+
+		}
+	}
+
