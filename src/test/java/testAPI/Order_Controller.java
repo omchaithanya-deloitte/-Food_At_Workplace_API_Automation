@@ -188,7 +188,6 @@ public class Order_Controller extends BaseClass {
         System.out.println(response.asString());
         Log.info("Order is placed");
         Object obj1=obj.getJSONObject("data").get("orderId");
-        System.out.println(obj1);
         order_id= Integer.parseInt(obj1.toString());
         ExtentTest place_order = extent.createTest("Placing the order");
         validateResponse(Utils.getProperties("order_created"),Utils.getProperties("message"), obj,place_order);
