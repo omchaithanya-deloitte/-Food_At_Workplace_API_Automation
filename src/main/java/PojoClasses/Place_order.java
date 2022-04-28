@@ -4,7 +4,6 @@ public class Place_order {
     private String email;
     private int amount;
     private int tableNo;
-    private order_data data;
     public Place_order(String email, int amount, int tableNo) {
         this.email=email;
         this.amount=amount;
@@ -39,11 +38,5 @@ public class Place_order {
         this.amount = amount;
     }
 
-    public order_data getdata() {
-        return data;
     }
 
-    public void setdata(order_data data) {
-        this.data = data;
-    }
-}
