@@ -3,10 +3,7 @@ package testAPI;
 import com.aventstack.extentreports.ExtentTest;
 import foodAtWorkspaceAPI.CreateUser;
 import foodAtWorkspaceAPI.Place_order_for_User;
-import io.qameta.allure.Description;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.*;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
@@ -22,7 +19,7 @@ import java.io.IOException;
 
 import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
-
+@Epic("Order_Controller")
 public class Order_Controller extends BaseClass {
     RequestSpecification res;
     ResponseSpecification resspec;
